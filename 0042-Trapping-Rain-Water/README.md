@@ -1,9 +1,9 @@
-# Trapping Rain Water
+# Trapping Rain Water  
 
-## Problem Description
+## Problem Description  
 Given an array of non-negative integers representing an elevation map where the width of each bar is 1, the task is to compute how much water it can trap after raining.
 
-## Intuition
+## Intuition  
 The amount of water that can be stored above any bar depends on the heights of the tallest bars to its left and right. The water level at any index `i` is determined by the formula:
 Water at index i = min(max_left_height, max_right_height) - height[i]
 
